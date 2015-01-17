@@ -1,9 +1,9 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #define LENGTH 10
 /*
-ÕâÊÇÒ»¸ö²åÈëÅÅÐò
-Ëã·¨µ¼ÂÛµÚÊ®Ò³
-¸´ÔÓ¶ÈÊÇO(n^2)
+æ’å…¥ç®—æ³•
+ç®—æ³•å¯¼è®ºç¬¬åé¡µ
+å¤æ‚åº¦O(n^2)
 
 
 
