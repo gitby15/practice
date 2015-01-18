@@ -1,4 +1,4 @@
-﻿#include<stdio.h>
+#include<stdio.h>
 #define LENGTH 10
 /*
 插入算法
