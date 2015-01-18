@@ -12,9 +12,9 @@ int main()
     i = 0;
     j = 0;
     k = 0;
-    for(i = 0;i<LENGTH;i++)
+    for(i = 1;i<LENGTH;i++)
     {
-          k = i;
+          k = i-1;
           for(j = i;j<LENGTH;j++)
           {
                 if(a[j]<a[k])
@@ -26,17 +26,17 @@ int main()
                 }
           
           temp = a[k];
-          a[k] = a[i];
-          a[i] = temp;
+          a[k] = a[i-1];
+          a[i-1] = temp;
           
           
-          printf("__a[%d]  =  %d  __\n",i,a[i]);
+          printf("__a[%d]  =  %d  __\n",i-1,a[i-1]);
           }
     
-    
+     printf("__a[%d]  =  %d  __\n",9,a[9]);
     
     getchar();
     }
- //  a b c d e f g h i j
+
                         
    
